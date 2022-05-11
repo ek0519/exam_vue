@@ -89,7 +89,7 @@ document.head.appendChild(external)
     <div class="mt-4">
       <div id="g_id_onload"
            data-client_id="799493047656-ilpc61jsjllm3ssotj5vpie1hq9kudqa.apps.googleusercontent.com"
-           data-login_uri="http://localhost:8000/api/auth/google"
+           :data-login_uri="`${BASE_URL}/api/auth/google`"
            data-auto_prompt="false">
       </div>
       <button
