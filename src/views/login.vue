@@ -82,7 +82,7 @@ document.head.appendChild(external)
 <template>
   <div class="grid grid-cols-1">
     <div id="facebook">
-      <button @click="fbLogin" class="text-4xl bg-blue-400 hover:bg-blue-700 rounded-xl px-4 py-4 text-gray-50 w-full">
+      <button @click="fbLogin" class="text-xl  sm:text-4xl bg-blue-400 hover:bg-blue-700 rounded-xl px-4 py-4 text-gray-50 w-full">
         continue with facebook
       </button>
     </div>
@@ -121,7 +121,7 @@ document.head.appendChild(external)
         </div>
         <div class="flex justify-center mt-4">
           <input type="submit"
-                 class="text-4xl bg-gray-400 hover:bg-gray-700 w-full rounded-xl px-4 py-4 text-white cursor-pointer"
+                 class="text-lg sm:text-4xl bg-gray-400 hover:bg-gray-700 w-full rounded-xl px-4 py-4 text-white cursor-pointer"
                  value="login">
         </div>
       </form>

@@ -78,7 +78,7 @@ async function checkForm() {
           <div v-if="errors.password_confirmation" class="text-sm text-red-700 text-gray-400 my-2">{{ errors.password_confirmation }}</div>
         </div>
         <div class="flex justify-center mt-4">
-          <input type="submit" class="text-4xl bg-gray-400 hover:bg-gray-700 w-full rounded-xl px-4 py-4 text-white cursor-pointer" value="signup">
+          <input type="submit" class=" text-lg sm:text-4xl bg-gray-400 hover:bg-gray-700 w-full rounded-xl px-4 py-4 text-white cursor-pointer" value="signup">
         </div>
       </form>
     </div>
